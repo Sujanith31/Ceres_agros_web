@@ -7,23 +7,23 @@ defineProps({
     default: () => [
       {
         icon: '<i class="fab fa-facebook text-lg opacity-8"></i>',
-        link: "https://www.facebook.com/CreativeTim/",
+        link: "",
       },
       {
         icon: '<i class="fab fa-twitter text-lg opacity-8"></i>',
-        link: "https://twitter.com/creativetim",
+        link: "",
       },
       {
         icon: '<i class="fab fa-dribbble text-lg opacity-8"></i>',
-        link: "https://dribbble.com/creativetim",
+        link: "",
       },
       {
         icon: '<i class="fab fa-github text-lg opacity-8"></i>',
-        link: "https://github.com/creativetimofficial",
+        link: "",
       },
       {
         icon: '<i class="fab fa-youtube text-lg opacity-8"></i>',
-        link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+        link: "",
       },
     ],
   },
@@ -32,15 +32,15 @@ defineProps({
     name: String,
     href: String,
     default: () => [
-      { href: "https://www.creative-tim.com/", name: "Company" },
-      { href: "https://www.creative-tim.com/presentation", name: "About Us" },
-      { href: "https://www.creative-tim.com/presentation", name: "Team" },
+      { href: "", name: "Company" },
+      { href: "", name: "About Us" },
+      { href: "", name: "Team" },
       {
-        href: "https://www.creative-tim.com/templates/vuejs",
+        href: "",
         name: "Products",
       },
-      { href: "https://www.creative-tim.com/blog", name: "Blog" },
-      { href: "https://www.creative-tim.com/license", name: "License" },
+      { href: "", name: "Blog" },
+      { href: "", name: "License" },
     ],
   },
 });

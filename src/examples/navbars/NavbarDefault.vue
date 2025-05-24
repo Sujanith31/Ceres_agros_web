@@ -16,7 +16,7 @@ const props = defineProps({
     color: String,
     label: String,
     default: () => ({
-      route: "https://www.creative-tim.com/product/vue-material-kit",
+      route: "",
       color: "bg-gradient-success",
       label: "Free Download",
     }),
@@ -142,11 +142,11 @@ watch(
       >
         CERES AGROS
       </RouterLink>
-      <a
+      <!-- <a
         href="https://www.creative-tim.com/product/vue-material-kit-pro"
         class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block"
         >Buy Now</a
-      >
+      > -->
       <button
         class="navbar-toggler shadow-none ms-2"
         type="button"
@@ -181,7 +181,7 @@ watch(
                 :class="getTextColor()"
                 >dashboard</i
               >
-              Pages
+              Menus
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -201,12 +201,12 @@ watch(
                 <div class="col-12 px-4 py-2">
                   <div class="row">
                     <div class="position-relative">
-                      <RouterLink
+                      <!-- <RouterLink
                         :to="{ name: 'aboutUs' }"
                         class="dropdown-item border-radius-md"
                       >
                         <span>Our Story</span>
-                      </RouterLink>
+                      </RouterLink> -->
                       <RouterLink
                         :to="{ name: 'about' }"
                         class="dropdown-item border-radius-md"
@@ -219,18 +219,18 @@ watch(
                       >
                         <span>Contact Us</span>
                       </RouterLink>
-                      <RouterLink
+                      <!-- <RouterLink
                         :to="{ name: 'author' }"
                         class="dropdown-item border-radius-md"
                       >
-                        <span>Author</span>
-                      </RouterLink>
-                      <RouterLink
+                        <span>blog</span>
+                      </RouterLink> -->
+                      <!-- <RouterLink
                         :to="{ name: 'signin-basic' }"
                         class="dropdown-item border-radius-md"
                       >
                         <span>Sign In</span>
-                      </RouterLink>
+                      </RouterLink> -->
                     </div>
                   </div>
                 </div>
@@ -239,10 +239,16 @@ watch(
                 <div
                   class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-0"
                 >
-                  Landing Pages
+                  Go to
                 </div>
-                <RouterLink
+                <!-- <RouterLink
                   :to="{ name: 'aboutUs' }"
+                  class="dropdown-item border-radius-md"
+                >
+                  <span>Our Story</span>
+                </RouterLink> -->
+                <RouterLink
+                  :to="{ name: 'about' }"
                   class="dropdown-item border-radius-md"
                 >
                   <span>About Us</span>
@@ -257,23 +263,23 @@ watch(
                   :to="{ name: 'author' }"
                   class="dropdown-item border-radius-md"
                 >
-                  <span>Author</span>
+                  <span>Blog</span>
                 </RouterLink>
-                <div
+                <!-- <div
                   class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-0 mt-3"
                 >
                   Account
-                </div>
-                <RouterLink
+                </div> -->
+                <!-- <RouterLink
                   :to="{ name: 'signin-basic' }"
                   class="dropdown-item border-radius-md"
                 >
                   <span>Sign In</span>
-                </RouterLink>
+                </RouterLink> -->
               </div>
             </div>
           </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -755,7 +761,7 @@ watch(
                 </div>
               </div>
             </div>
-          </li>
+          </li> -->
           <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
@@ -932,7 +938,7 @@ watch(
             </a>
           </li> -->
         </ul>
-        <ul class="navbar-nav d-lg-block d-none">
+        <!-- <ul class="navbar-nav d-lg-block d-none">
           <li class="nav-item">
             <a
               :href="action.route"
@@ -942,7 +948,7 @@ watch(
               >Buy</a
             >
           </li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </nav>

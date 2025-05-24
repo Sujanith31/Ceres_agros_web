@@ -20,23 +20,23 @@ defineProps({
     default: () => [
       {
         icon: '<i class="fab fa-facebook text-lg opacity-8"></i>',
-        link: "https://www.facebook.com/CreativeTim/"
+        link: ""
       },
       {
         icon: '<i class="fab fa-twitter text-lg opacity-8"></i>',
-        link: "https://twitter.com/creativetim"
+        link: ""
       },
       {
         icon: '<i class="fab fa-dribbble text-lg opacity-8"></i>',
-        link: "https://dribbble.com/creativetim"
+        link: ""
       },
       {
         icon: '<i class="fab fa-github text-lg opacity-8"></i>',
-        link: "https://github.com/creativetimofficial"
+        link: ""
       },
       {
         icon: '<i class="fab fa-youtube text-lg opacity-8"></i>',
-        link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w"
+        link: ""
       }
     ]
   },
@@ -50,73 +50,73 @@ defineProps({
     },
     default: () => [
       {
-        name: "company",
+        name: "about us",
         items: [
-          {
-            name: "about us",
-            href: "https://www.creative-tim.com/presentation"
-          },
-          {
-            name: "freebies",
-            href: "https://www.creative-tim.com/templates/free"
-          },
-          {
-            name: "premium tools",
-            href: "https://www.creative-tim.com/templates/premium"
-          },
-          { name: "blog", href: "https://www.creative-tim.com/blog" }
+          // {
+          //   name: "about us",
+          //   href: ""
+          // },
+          // {
+          //   name: "freebies",
+          //   href: ""
+          // },
+          // {
+          //   name: "premium tools",
+          //   href: ""
+          // },
+          // { name: "blog", href: "" }
         ]
       },
       {
-        name: "resources",
+        name: "Contact-Us",
         items: [
-          { name: "illustrations", href: "https://iradesign.io/" },
-          {
-            name: "bits & snippets",
-            href: "https://www.creative-tim.com/bits"
-          },
-          {
-            name: "affiliate program",
-            href: "https://www.creative-tim.com/affiliates/new"
-          }
+          // { name: "illustrations", href: "" },
+          // {
+          //   name: "bits & snippets",
+          //   href: ""
+          // },
+          // {
+          //   name: "affiliate program",
+          //   href: ""
+          // }
         ]
       },
       {
-        name: "help & support",
+        name: "Blog",
         items: [
-          {
-            name: "contact us",
-            href: "https://www.creative-tim.com/contact-us"
-          },
-          {
-            name: "knowledge center",
-            href: "https://www.creative-tim.com/knowledge-center"
-          },
-          {
-            name: "custom development",
-            href: "https://services.creative-tim.com/"
-          },
-          {
-            name: "sponsorships",
-            href: "https://www.creative-tim.com/sponsorships"
-          }
+          // {
+          //   name: "contact us",
+          //   href: ""
+          // },
+          // {
+          //   name: "knowledge center",
+          //   href: ""
+          // },
+          // {
+          //   name: "custom development",
+          //   href: ""
+          // },
+          // {
+          //   name: "sponsorships",
+          //   href: ""
+          // }
         ]
       },
       {
-        name: "legal",
+        name: "Our Story",
         items: [
-          {
-            name: "terms & conditions",
-            href: "https://www.creative-tim.com/terms"
-          },
-          {
-            name: "privacy policy",
-            href: "https://www.creative-tim.com/privacy"
-          },
-          {
-            name: "licenses (EULA)",
-            href: "https://www.creative-tim.com/license"
-          }
+          // {
+          //   name: "terms & conditions",
+          //   href: ""
+          // },
+          // {
+          //   name: "privacy policy",
+          //   href: ""
+          // },
+          // {
+          //   name: "licenses (EULA)",
+          //   href: ""
+          // }
         ]
       }
     ]
@@ -172,8 +172,8 @@ defineProps({
             <p class="text-dark my-4 text-sm font-weight-normal">
               All rights reserved. Copyright ©
               {{ new Date().getFullYear() }}
-              Ceres Agros
-              <a href="https://www.creative-tim.com" target="_blank"
+              Creative Tim
+              <a href="" target="_blank"
                 >team</a
               >.
             </p>

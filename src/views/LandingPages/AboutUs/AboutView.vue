@@ -168,7 +168,7 @@ onUnmounted(() => {
       </ul>
     </div>
   </div>
-  <div class="container mt-sm-5">
+  <div class="container closing-image mt-sm-5">
     <img :src="MET" alt="" class="pb-6">
   </div>
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
@@ -179,3 +179,11 @@ onUnmounted(() => {
   </div>
   <DefaultFooter />
 </template>
+<style scoped>
+@media (max-width: 800px) { 
+  .closing-image{
+    display: none !important;
+  }
+}
+
+</style>
