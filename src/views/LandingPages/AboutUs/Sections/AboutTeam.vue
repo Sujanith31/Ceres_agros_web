@@ -45,7 +45,7 @@ import Sunil from "@/assets/img/team-4.jpg";
         </div>
       </div>
       <div class="row mt-4">
-        <div class="col-lg-6 col-12">
+        <!-- <div class="col-lg-6 col-12">
           <HorizontalTeamCard
             class="mt-4 z-index-2"
             :image="Sunil"
@@ -53,7 +53,7 @@ import Sunil from "@/assets/img/team-4.jpg";
             :position="{ label: 'Finance Director', color: 'success' }"
             description="Leads financial strategy, planning, and management to drive business growth and profitability."
           />
-        </div>
+        </div> -->
         <div class="col-lg-6 col-12">
           <HorizontalTeamCard
             class="mt-4"
@@ -64,7 +64,7 @@ import Sunil from "@/assets/img/team-4.jpg";
           />
         </div>
       </div>
-      <div class="row mt-4">
+      <!-- <div class="row mt-4">
         <div class="col-lg-6 col-12">
           <HorizontalTeamCard
             class="mt-4 z-index-2"
@@ -74,7 +74,7 @@ import Sunil from "@/assets/img/team-4.jpg";
             description="Manages and oversees daily operations to ensure efficiency and effectiveness."
           />
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

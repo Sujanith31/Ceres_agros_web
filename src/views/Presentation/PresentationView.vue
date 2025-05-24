@@ -135,9 +135,10 @@ onMounted(() => {
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
     <PresentationCounter />
     <PresentationInformation />
+    <BuiltByDevelopers />
     <!-- <PresentationExample :data="data" /> -->
     <PresentationPages />
-    <BuiltByDevelopers />
+    
 
     <!-- <div class="container">
       <div class="row">
@@ -186,7 +187,7 @@ onMounted(() => {
         </div>
       </div>
     </div> -->
-    <PresentationTestimonials />
+    <!-- <PresentationTestimonials /> -->
 
     <div
       class="container-fluid mt-sm-5 border-radius-xl"
@@ -231,8 +232,8 @@ onMounted(() => {
         <div class="d-flex flex-column w-100 text-center p-5 mb-8">
           <h3>Available on these Locations</h3>
           <div class="d-flex justify-content-center mt-3 flex-wrap">
-            <a
-              href="https://www.creative-tim.com/product/material-kit"
+            <!-- <a
+              href=""
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
               title="High demand area"
@@ -243,7 +244,7 @@ onMounted(() => {
                 loading="lazy"
                 :style="{ height: '120px' }"
               />
-            </a>
+            </a> -->
             <a
               class="opacity-5 ms-3"
               href="#"
@@ -259,7 +260,7 @@ onMounted(() => {
               />
             </a>
             <a
-              href="https://www.creative-tim.com/product/vue-material-kit-pro"
+              href=""
               class="mx-3"
               data-bs-toggle="tooltip"
               data-bs-placement="bottom"
