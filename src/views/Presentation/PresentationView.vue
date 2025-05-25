@@ -216,7 +216,7 @@ onMounted(() => {
                 </p>
 
                 <a
-                  href="https://www.creative-tim.com/product/vue-material-kit"
+                  href=""
                   class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
                   >Join Our family</a
                 >

@@ -27,8 +27,9 @@ import logoFour from "@/assets/img/logo-Four.jpg";
             </div>
             <h2 class="">ADVANCED NPK SPECIALITY BLENDS WITH MET</h2>
             <p class="lead">
-              Turbocharge crops with MET for improved soil health
-               consistent higher yeilds - seasons after seasons with our 100% water-soluble fertilisers.
+              Turbocharge crops with MET for improved soil health consistent
+              higher yeilds - seasons after seasons with our 100% water-soluble
+              fertilisers.
             </p>
           </div>
         </div>
@@ -57,12 +58,7 @@ import logoFour from "@/assets/img/logo-Four.jpg";
           </div>
           <div class="row mt-0">
             <div class="col-md-6 mt-md-0 mt-5">
-              <ExampleCard
-                classes="mt-5"
-                title=""
-                :image="logoThree"
-                route="signin-basic"
-              />
+              <ExampleCard classes="mt-5" title="" :image="logoThree" />
             </div>
             <div class="col-md-6 mt-md-0 mt-5">
               <ExampleCard
@@ -91,7 +87,7 @@ import logoFour from "@/assets/img/logo-Four.jpg";
   </section>
 </template>
 <style scoped>
-  .badge{
-    font-size: 16px !important;
-  }
+.badge {
+  font-size: 16px !important;
+}
 </style>
