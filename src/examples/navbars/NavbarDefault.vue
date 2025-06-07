@@ -219,12 +219,12 @@ watch(
                       >
                         <span>Contact Us</span>
                       </RouterLink>
-                      <!-- <RouterLink
+                      <RouterLink
                         :to="{ name: 'author' }"
                         class="dropdown-item border-radius-md"
                       >
                         <span>blog</span>
-                      </RouterLink> -->
+                      </RouterLink>
                       <!-- <RouterLink
                         :to="{ name: 'signin-basic' }"
                         class="dropdown-item border-radius-md"

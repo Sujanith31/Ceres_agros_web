@@ -36,7 +36,7 @@ onMounted(() => {
               <div
                 class="d-flex justify-content-between align-items-center mb-2"
               >
-                <h3 class="mb-0">Devalla Sridhar Reddy</h3>
+                <h3 class="mb-0">Esukapalli RajaShekar Reddy</h3>
                 <div class="d-block">
                   <MaterialButton
                     class="text-nowrap mb-0"
@@ -67,7 +67,7 @@ onMounted(() => {
                 (pain avoidance is creating an illusion of equality). Choose the
                 path that leaves you more equanimous.
                 <br /><a
-                  href="javascript:;"
+                  href="https://www.instagram.com/annapurnaagrispace/?igsh=MTl6MmNmM2t6MjZybA%3D%3D#"
                   class="text-success icon-move-right"
                   >More about me
                   <i class="fas fa-arrow-right text-sm ms-1"></i>
