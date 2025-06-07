@@ -43,7 +43,7 @@ onMounted(() => {
                     variant="outline"
                     color="success"
                     size="sm"
-                    >Follow</MaterialButton
+                    ><a href="https://www.instagram.com/annapurnaagrispace/?igsh=MTl6MmNmM2t6MjZybA%3D%3D#">Follow</a></MaterialButton
                   >
                 </div>
               </div>
