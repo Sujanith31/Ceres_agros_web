@@ -299,7 +299,7 @@ onMounted(() => {
             />
             <MaterialSocialButton
               route=""
-              component="pinterest"
+              component="instagram"
               color="pinterest"
               label="Insta"
             />

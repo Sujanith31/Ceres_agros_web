@@ -28,7 +28,6 @@ import Sunil from "@/assets/img/team-4.jpg";
         <div class="col-lg-6 col-12">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5 z-index-2"
-            :image="marquez"
             :profile="{ name: 'Devella Sridhar Reddy', link: 'javascript:;' }"
             :position="{ label: 'Founder', color: 'success' }"
             description="Through strong industry relationships and a focus on sourcing excellence, our founder secures the best ingredients and technologies for our fertilizers, ultimately benefiting your Crop's productivity."
@@ -37,7 +36,6 @@ import Sunil from "@/assets/img/team-4.jpg";
         <div class="col-lg-6 col-12">
           <HorizontalTeamCard
             class="mt-lg-4 mt-5"
-            :image="william"
             :profile="{ name: 'Esukapalli RajaShekar Reddy', link: 'javascript:;' }"
             :position="{ label: 'Partner', color: 'success' }"
             description="Our visionary leader actively explores new horizons, building strong relationships with clients and farmers in emerging regions to understand their needs and foster collaborative growth."
@@ -57,7 +55,6 @@ import Sunil from "@/assets/img/team-4.jpg";
         <div class="col-lg-6 col-12">
           <HorizontalTeamCard
             class="mt-4"
-            :image="emma"
             :profile="{ name: 'Devella Kathyayini', link: 'javascript:;' }"
             :position="{ label: 'Partner', color: 'success' }"
             description="Orchestrating marketing vision and administrative excellence to fuel business expansion and operational synergy."
