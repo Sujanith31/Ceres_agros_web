@@ -241,12 +241,12 @@ watch(
                 >
                   Go to
                 </div>
-                <!-- <RouterLink
+                <RouterLink
                   :to="{ name: 'aboutUs' }"
                   class="dropdown-item border-radius-md"
                 >
                   <span>Our Story</span>
-                </RouterLink> -->
+                </RouterLink>
                 <RouterLink
                   :to="{ name: 'about' }"
                   class="dropdown-item border-radius-md"

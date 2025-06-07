@@ -9,86 +9,56 @@ import picThree from "@/assets/img/statment-3.jpg";
 import ThreePs from "@/assets/img/threePs.jpg";
 </script>
 <template>
-  <section class="py-7">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-12">
-          <div class="row justify-content-start">
-            <DefaultInfoCard
-              color="info"
-              icon="public"
-              title="Vision Statement"
-              description="To be the world’s most trusted manufacturer of intelligent plant nutrition, driving sustainable growth through innovation and quality.
-Empowering agriculture with tomorrow’s technology, today."
-            />
-          </div>
-        </div>
-        <div class="col-lg-4 ms-auto mt-lg-0">
-          <!-- <CenteredBlogCard
-            image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-            title="Get insights on Search"
-            description="Looking for specific information on our water-insoluble fertilizers, application techniques, or crop-specific solutions? Our search tool allows you to quickly navigate our extensive resources and find the precise insights you need to optimize your farm's potential."
-          /> -->
-          <img
-            class="statment-pictures"
-            style="height: 40vh"
-            :src="picOne"
-            alt=""
+  <section>
+    <div class="statments-containers">
+      <div class="statment-one">
+        <div class="statment-one-left">
+          <DefaultInfoCard
+            color="info"
+            icon="public"
+            title="Mission Statement"
+            description="To revolutionize agriculture with innovative, sustainable solutions that enhance soil health and crop productivity, ensuring food security for future generations."
           />
         </div>
-      </div>
-    </div>
-    <div class="container mt-6">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <div class="row justify-content-start">
-            <img style="height: 40vh; width: 500px" :src="ThreePs" alt="" />
-          </div>
+        <div class="statment-one-right">
+          <img :src="picOne" alt="" style="height: 40vh" />
         </div>
-        <div class="col-lg-4 ms-auto mt-lg-0">
-          <!-- <CenteredBlogCard
-            image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-            title="Get insights on Search"
-            description="Looking for specific information on our water-insoluble fertilizers, application techniques, or crop-specific solutions? Our search tool allows you to quickly navigate our extensive resources and find the precise insights you need to optimize your farm's potential."
-          /> -->
+      </div>
+      <div class="statment-two">
+        <div class="statment-one-right">
+          <img :src="ThreePs" alt="" style="height: 40vh" />
+        </div>
+        <div class="statment-one-left">
           <DefaultInfoCard
-            style="width: 500px"
             color="info"
             icon="public"
             title="The 3 P’s of Ceres Agros"
-            description="Precision – Tailored nutrient delivery. . . . 
-            Performance – Consistent, measurable results.
-            Progress – Advancing agriculture for a sustainable future."
+            description=""
           />
+          <ul>
+            <li>Precision – Tailored nutrient delivery.</li>
+            <li>Performance – Consistent, measurable results.</li>
+            <li>Progress – Advancing agriculture for a sustainable future.</li>
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="container mt-6">
-      <div class="row align-items-center">
-        <div class="col-lg-12">
-          <div class="row justify-content-start">
-            <DefaultInfoCard
-              color="info"
-              icon="public"
-              title="Our Core Values"
-              description="Innovation – We lead with science and stay future focused.  .  .  .
-              Integrity – Transparency in every partnership. . .      .   .  .  .  .  .
-              Sustainability – Growing responsibly for generations.  .  .  .  . Excellence – Uncompromising quality in every batch.  .  .  .  ."
-            />
-          </div>
-        </div>
-        <div class="col-lg-4 ms-auto mt-lg-0">
-          <!-- <CenteredBlogCard
-            image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-            title="Get insights on Search"
-            description="Looking for specific information on our water-insoluble fertilizers, application techniques, or crop-specific solutions? Our search tool allows you to quickly navigate our extensive resources and find the precise insights you need to optimize your farm's potential."
-          /> -->
-          <img
-            class="statment-pictures"
-            style="height: 40vh"
-            :src="picThree"
-            alt=""
+      <div class="statment-one">
+        <div class="statment-one-left">
+          <DefaultInfoCard
+            color="info"
+            icon="public"
+            title="Our Core Values"
+            description=""
           />
+          <ul>
+            <li>Innovation – We lead with science and stay future focused.</li>
+            <li>Integrity – Transparency in every partnership.</li>
+            <li>Sustainability – Growing responsibly for generations.</li>
+            <li>Excellence – Uncompromising quality in every batch.</li>
+          </ul>
+        </div>
+        <div class="statment-one-right">
+          <img :src="picThree" alt="" style="height: 40vh" />
         </div>
       </div>
     </div>
@@ -97,5 +67,37 @@ Empowering agriculture with tomorrow’s technology, today."
 <style scoped>
 .statment-pictures {
   margin-top: -160px !important;
+}
+.statment-two {
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.statment-one {
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.statment-one-left {
+  /* background-color: black; */
+  width: 550px;
+}
+.statment-one-right {
+  /* background-color: blue; */
+}
+
+@media (max-width:450px){
+  img{
+    width: 300px !important;
+    height: 30vh !important;
+  }
 }
 </style>
