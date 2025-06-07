@@ -62,7 +62,7 @@ onUnmounted(() => {
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-9 text-center mx-auto my-auto">
+          <div class="col-lg-9 text-center mx-auto my-8">
             <h1 class="text-white">About Ceres Agros</h1>
             <p class="lead mb-4 text-white opacity-8">
               Ceres Agros is India’s leading manufacturer of 100% water-soluble
