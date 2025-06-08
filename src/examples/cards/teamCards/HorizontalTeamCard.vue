@@ -25,7 +25,7 @@ defineProps({
 <template>
   <div class="card card-profile">
     <div class="row">
-      <div class="col-lg-8 col-md-6 col-12 mx-6 my-auto">
+      <div class="col-lg-12 col-md-6 col-12 mx-2 my-auto">
         <div class="card-body ps-lg-0">
           <h5 class="mb-0">{{ profile.name }}</h5>
           <h6 :class="`text-${position.color}`">{{ position.label }}</h6>
